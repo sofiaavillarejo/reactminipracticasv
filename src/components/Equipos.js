@@ -4,7 +4,7 @@ import axios from 'axios';
 export default class Equipos extends Component {
   selectEquipo = React.createRef();
   cajaNombre = React.createRef();
-
+  
   state = {
     equipos: [],
     jugadores: [],
